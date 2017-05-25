@@ -24,8 +24,6 @@ header {
 h2 {
 	border-bottom: solid;
 	border-color: #cccccc;
-	margin: 15px;
-	text-align: left; 
 	color: #4aaaa5;
 }
 
@@ -36,6 +34,11 @@ a {
 
 section{
 	padding: 20px;
+}
+
+form {
+	width: 350px;
+	
 }
 
 .my-name {
@@ -80,7 +83,7 @@ section{
 	margin-bottom: 32px;
 	width: 650px;
 	background: #ffffff;
-	text-align: center;
+	text-align: left;
 }
 
 .contact-me {
