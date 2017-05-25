@@ -1,0 +1,112 @@
+/*COLOR SCHEME:
+#6e6e6e - Off white
+#a19f9f - Light Gray
+#030202 - Dark Gray
+#000000 - Black
+*/
+
+body {
+	background-image: url(../images/pow-star.png);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+header {
+	background: #ffffff;
+	overflow: auto;
+	height: 70px;
+	line-height: 70px;
+	border-bottom: solid; 
+	border-bottom-color: #cccccc;
+	margin: 
+}
+
+h2 {
+	border-bottom: solid;
+	border-color: #cccccc;
+	margin: 15px;
+	text-align: left; 
+	color: #4aaaa5;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+section{
+	padding: 20px;
+}
+
+.my-name {
+	font-family: 'Georgia', Times, serif;
+	float: left;
+	height: 70px;
+	width: 195px;
+	margin-left: 120px;
+	background: #4aaaa5; 
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	z-index: 100;
+}
+
+.header-links{
+	float: right;
+	text-align: right;
+	width: 270px;
+	margin-right: 170px;
+	color: #777777;
+	font-size: 16px;
+	font-style: normal;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.border-right {
+	border-right: solid; 
+}
+
+#headshot {
+	float: left;
+	height: 200px;
+	padding: 10px;
+}
+
+.main-content {
+	float: left;
+	margin-left: 120px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	width: 650px;
+	background: #ffffff;
+	text-align: center;
+}
+
+.contact-me {
+	float: right;
+	margin-top: 32px;
+	margin-right: 170px;
+	background: #ffffff;
+	width: 220px;
+	text-align: center;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+.contact-me img {
+	height: 42px;
+	padding: 7px;
+}
+
+footer {
+	clear: both;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: solid #4aaaa5;
+	border-width: 10px;
+	width: 100%;
+	background: #666666;
+	text-align: center;
+}
