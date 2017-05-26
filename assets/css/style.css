@@ -1,9 +1,4 @@
-/*COLOR SCHEME:
-#6e6e6e - Off white
-#a19f9f - Light Gray
-#030202 - Dark Gray
-#000000 - Black
-*/
+
 
 body {
 	background-image: url(../images/pow-star.png);
@@ -36,9 +31,42 @@ section{
 	padding: 20px;
 }
 
-form {
-	width: 350px;
-	
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 120px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .my-name {
@@ -70,12 +98,6 @@ form {
 	border-right: solid; 
 }
 
-#headshot {
-	float: left;
-	height: 200px;
-	padding: 10px;
-}
-
 .main-content {
 	float: left;
 	margin-left: 120px;
@@ -85,6 +107,7 @@ form {
 	background: #ffffff;
 	text-align: left;
 }
+
 
 .contact-me {
 	float: right;
@@ -102,6 +125,32 @@ form {
 	padding: 7px;
 }
 
+.portfolio {
+	float: left;
+}
+.portfolio-img {
+	position: relative;
+	height: 210px;
+	width: 275px;
+	margin: 10px;
+}
+.text-overlay {
+	position: relative;
+	bottom: 90px;
+	left: 10px;
+	width: 275px;
+	margin: 0px;
+	font-family: 'Georgia', Times, serif;
+	height: 70px;
+	line-height: 70px;
+	background: #4aaaa5; 
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	z-index: 100;
+}
+
 footer {
 	clear: both;
 	color: #ffffff;
@@ -112,4 +161,10 @@ footer {
 	width: 100%;
 	background: #666666;
 	text-align: center;
+}
+
+#headshot {
+	height: 200px;
+	float: left;
+	padding: 10px;
 }
